@@ -8,7 +8,7 @@
 $ npm install
 $ npm run build
 Then
-$ node ./dist/src/app.js [path of json file]
+$ node ./dist/src/app.js [path to json file]
 ```
 ```
 or for this project:
