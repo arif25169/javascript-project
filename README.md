@@ -1,7 +1,7 @@
 ## Instruction:
 
 ### Requirements:
-- Node version >= 14+
+- Node version >= 14
 
 ### How to run:
 ```sh
