@@ -34,9 +34,9 @@ const calculationNaturalCashOut = (
       item.date <= date &&
       moment(item.date).week() === moment(date).week(),
   );
-  const weeklyTransactionAmount = result.reduce((acc, cur) => acc + cur.operation.amount, 0);
+  const weeklyAmount = result.reduce((acc, cur) => acc + cur.operation.amount, 0);
 
-  if (weeklyTransactionAmount <= 1000) {
+  if (weeklyAmount <= 1000) {
     return 0;
   }
   if (amount > 1000) {
